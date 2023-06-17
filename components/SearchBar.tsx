@@ -56,7 +56,7 @@ const SearchBar = () => {
     const [model, setModel] = useState('');
   return (
     <form className="searchbar" onSubmit={handleSearch}>
-        <div className="searhcbar__item">
+        <div className="searchbar__item">
             <SearchManufacturer
                 Manufacturer={Manufacturer}
                 setManufacturer={ setManufacturer }
